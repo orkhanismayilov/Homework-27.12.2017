@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.slider{
+    width: 700px;
+    position: relative;
+}
+
+.slider img{
+    position: absolute;
+    width: 100%;
+}
+
+.slider .overlay{
+    position: absolute;
+    width: 100%;
+}
+
+.slider .text{
+    position: absolute;
+    height: 60px; 
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 380px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    line-height: 30px;
+    padding: 5px 15px;
+}
+
+.slider .date_time{
+    position: absolute;
+    width: 17%;
+    height: 35px;
+    color: white;
+    padding: 0 15px;
+    background-color: rgba(22, 121, 132, 0.8);
+    word-spacing: 10px;
+    line-height: 35px;
+    top: 324px;
+}
+
+.slider .material-icons{
+    color: white;
+    font-size: 100px;
+
+}
+
+.slider .left{
+    position: absolute;
+    left: 0;
+    top: 180px;
+}
+
+.slider .right{
+    position: absolute;
+    right: 0;
+    top: 180px;
+}
